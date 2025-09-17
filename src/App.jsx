@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { Send, Bot, User } from 'lucide-react'
 
-const API_URL = "http://127.0.0.1:8000/chat"  // backend FastAPI endpoint
+const API_URL = "https://simple-chatbot-api.onrender.com/chat"  // backend FastAPI endpoint
 
 function App() {
   const [messages, setMessages] = useState([])
